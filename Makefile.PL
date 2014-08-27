@@ -14,6 +14,7 @@ readme_from 'List.pm';
 requires 'Class::Utils' => 0.02;
 requires 'Unicode::Block' => 0.02;
 requires 'Unicode::UCD' => 0;
+requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Unicode-Block-List';
 resources 'homepage' => 'https://github.com/tupinek/Unicode-Block-List';
@@ -25,7 +26,7 @@ test_requires 'Test::NoWarnings' => 0;
 test_requires 'Test::Pod' => 0;
 test_requires 'Test::Pod::Coverage' => 0;
 tests_recursive;
-version '0.01';
+version '0.02';
 
 # Run.
 WriteAll();

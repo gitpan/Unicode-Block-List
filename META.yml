@@ -29,9 +29,10 @@ requires:
   Class::Utils: 0.02
   Unicode::Block: 0.02
   Unicode::UCD: 0
+  perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Unicode-Block-List
   homepage: https://github.com/tupinek/Unicode-Block-List
   license: http://opensource.org/licenses/BSD-3-Clause
   repository: git://github.com/tupinek/Unicode-Block-List
-version: 0.01
+version: 0.02
